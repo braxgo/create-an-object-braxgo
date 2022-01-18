@@ -14,18 +14,10 @@ console.log(`<p>${firstName} ${lastName} has a social ${ssn}</p>`);
     volume: 50,
     color: "Brown", //only contain letters, digits, dollar signs, underscore
     pocketNum: 20,
-    boxLength: { //camelCase property names avoid issues
+    boxDimensions: { //camelCase property names avoid issues
       length: 12,
       width: 12,
-    },
-    lidOpen: false,
-    toggleLid: function (lidStatus) {
-      this.lidOpen = lidStatus;
-    },
-    newStrapLength: function (lengthLeft, lengthRight) {
-      this.strapLength.left = lengthLeft;
-      this.strapLength.right = lengthRight;
-    },
+    },  
   };
   
 
